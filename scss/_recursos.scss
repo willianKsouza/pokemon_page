@@ -1,0 +1,113 @@
+$third: #f5db13;
+$primary: #f2b807;
+$second: #f28f16;
+$danger: #d93e30;
+$grey: #f6f7f9;
+$paragraph: #212121;
+$green: #73d677;
+
+@function rem($pixel, $contexto: 15) {
+  @return ($pixel / $contexto) * 1rem;
+}
+
+@mixin tipografia1($size) {
+  @if $size == 72 {
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 400;
+    font-size: rem($size);
+    line-height: 84px;
+    letter-spacing: 4px;
+  }
+  @if $size == 32 {
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 400;
+    font-size: rem($size);
+    line-height: 37px;
+  }
+  @if $size == 18 {
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 700;
+    font-size: rem($size);
+    line-height: 21px;
+  }
+  @if $size == 12 {
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 400;
+    font-size: rem($size);
+    line-height: 14px;
+  }
+  @if $size == 16 {
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: rem($size);
+    line-height: 20px;
+  }
+  @if $size == 36 {
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 700;
+    font-size: rem($size);
+    line-height: 42px;
+  }
+  @if $size == 25 {
+    font-family: Karla;
+    font-size: rem($size);
+    font-weight: 400;
+    line-height: 29px;
+    text-align: left;
+  }
+}
+
+@mixin cardTitleMG {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+@mixin cardtitleContainer {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+
+
+@mixin responsive($breakpoint) {
+  @if $breakpoint == 1400 {
+    @media only screen and (max-width:1400px) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == 1300 {
+    @media only screen and (max-width: 1300px) {
+      @content;
+    }
+  }
+  @if $breakpoint == 1200 {
+    @media only screen and (max-width: 1200px) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == 768 {
+    @media only screen and (max-width: 768px) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == 390 {
+    @media only screen and (max-width:390px) {
+      @content;
+    }
+  }
+}

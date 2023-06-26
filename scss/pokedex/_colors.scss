@@ -1,0 +1,69 @@
+     $grass: #006359;
+    $fire:#E50020;
+    $water: #3396CD;
+    $ghost: #333;
+    $fighting: #BF794E;
+    $bug:  #BDBDE6;
+    $normal:#E6B462;
+    $ground:#C57341;
+    $psychic: #D2DDF0;
+    $rock: #ADB2B4;
+    $fairy:#CD91BE;
+    $poison: #91308C;
+    $electric: #F9BE00;
+    $ice:#6CC8B9;
+    $dragon:#DED5DE;
+    
+
+
+
+   .grass {
+    background: linear-gradient(90deg, rgba(255,255,255,1) 21%, rgba(255,255,255,1) 49%, $grass 22%, $grass 100%);
+   }
+   .fire {
+    background: linear-gradient(90deg, rgba(255,255,255,1) 21%, rgba(255,255,255,1) 49%, $fire 22%, $fire 100%);
+   }
+   .water {
+    background: linear-gradient(90deg, rgba(255,255,255,1) 21%, rgba(255,255,255,1) 49%, $water 22%, $water 100%);
+   }
+   .ghost {
+    background: linear-gradient(90deg, rgba(255,255,255,1) 21%, rgba(255,255,255,1) 49%, $ghost 22%, $ghost 100%);
+   }
+   .fighting {
+    background: linear-gradient(90deg, rgba(255,255,255,1) 21%, rgba(255,255,255,1) 49%, $fighting 22%,  $fighting 100%);
+   }
+   .poison {
+    background: linear-gradient(90deg, rgba(255,255,255,1) 21%, rgba(255,255,255,1) 49%, $poison 22%, $poison 100%);
+   }
+   .psychic {
+    background: linear-gradient(90deg, rgba(255,255,255,1) 21%, rgba(255,255,255,1) 49%,$psychic 22%, $psychic  100%);
+   }
+   .rock {
+    background: linear-gradient(90deg, rgba(255,255,255,1) 21%, rgba(255,255,255,1) 49%, $rock 22%, $rock 100%);
+   }
+   .fairy {
+    background: linear-gradient(90deg, rgba(255,255,255,1) 21%, rgba(255,255,255,1) 49%, $fairy 22%, $fairy 100%);
+   }
+   .electric {
+    background: linear-gradient(90deg, rgba(255,255,255,1) 21%, rgba(255,255,255,1) 49%, $electric 22%, $electric 100%);
+   }
+
+   .ground{
+    background: linear-gradient(90deg, rgba(255,255,255,1) 21%, rgba(255,255,255,1) 49%, $ground 22%, $ground 100%);
+   }
+   .normal{
+    background: linear-gradient(90deg, rgba(255,255,255,1) 21%, rgba(255,255,255,1) 49%, $normal 22%, $normal 100%);
+   }
+   .bug{
+     background: linear-gradient(90deg, rgba(255,255,255,1) 21%, rgba(255,255,255,1) 49%,$bug 22%, $bug 100%);
+   }
+
+   .ice {
+    background: linear-gradient(90deg, rgba(255,255,255,1) 21%, rgba(255,255,255,1) 49%,$ice 22%, $ice 100%);
+   }
+   .dragon {
+    background: linear-gradient(90deg, rgba(255,255,255,1) 21%, rgba(255,255,255,1) 49%,$dragon  22%, $dragon  100%);
+   }
+
+  
+
