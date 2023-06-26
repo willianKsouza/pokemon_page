@@ -34,4 +34,3 @@ export default function cardComponente(data) {
    
 }
 
-// data.sprites.other.dream_world.front_default

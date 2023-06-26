@@ -4,10 +4,4 @@ export default function formatTypes(dataType) {
     }
     const { types } = dataType
     return types.map(item => item.type.name).join('/')
-
-    // if (dataType.types.length === 2) {
-    //  return `${dataType.types[0].type.name}/${dataType.types[1].type.name}` 
-    // }else {
-    //     return `${dataType.types[0].type.name}` 
-    // }
 }

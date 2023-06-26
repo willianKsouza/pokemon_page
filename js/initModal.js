@@ -32,6 +32,4 @@ export default function initModal(data) {
  
 }
 
-// htmlReference.elem('[data-close="close"]').addEventListener("click", (ev) => {
-// htmlReference.elem('[data-modal="container"]').classList.toggle("active");
-// });
+
